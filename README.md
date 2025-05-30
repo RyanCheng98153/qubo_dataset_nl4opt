@@ -120,3 +120,49 @@ If the smoothie shop has 3500 units of acai berries and 3200 units of banana cho
     "id": "-1210596886"
 }
 - xy more than: less_or_equal -> greater
+
+{
+    "document": """Platinum Database sells two types of subscription software packages: a personal license and a commercial license which will cost $550 and $2000 to generate respectively.
+    The marketing department estimates that they can sell at most 300 licenses for both versions combined a month.
+    The profit per personal license is $450 and the profit per commercial version is $1200.
+    If the company does not want to spend more than $400000, how many of each software package should they produce to maximize the profits.""",
+    "vars": [
+        "personal license",
+        "commercial license"
+    ],
+    "params": [
+        "550",
+        "2000",
+        "450",
+        "1200"
+    ],
+    "obj_declaration": {
+        "type": "objective",
+        "direction": "maximize",
+        "name": "profits",
+        "terms": {
+            "personal license": "450",
+            "commercial version": "1200"
+        }
+    },
+    "const_declarations": [
+        {
+            "type": "linear",
+            "direction": "no more than",
+            "limit": "400000",
+            "terms": {
+                "personal license": "550",
+                "commercial license": "2000"
+            },
+            "operator": "LESS_OR_EQUAL"
+        },
+        {
+            "type": "sum",
+            "direction": "at most",
+            "limit": "300",
+            "operator": "LESS_OR_EQUAL"
+        }
+    ],
+    "id": "1294399767"
+}
+- linear: more than -> no more than
