@@ -15,6 +15,12 @@ Formulate an LP to maximize the number of fish that can be transported.""",
         "50",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "sled dogs": "sled dogs",
+        "sled dog": "sled dogs",
+        "trucks": "trucks",
+        "truck": "trucks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -60,6 +66,11 @@ How many of each printer should be made to maximize the company's profit?""",
         "200",
         "70"
     ],
+    "var_mention_to_first_var": {
+        "color printers": "color printers",
+        "black and white printers": "black and white printers",
+        "Color printers": "color printers"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -108,6 +119,10 @@ Formulate an LP to minimize the wage bill.""",
         "1000",
         "third"
     ],
+    "var_mention_to_first_var": {
+        "senior accountants": "senior accountants",
+        "junior accountants": "junior accountants"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -168,6 +183,12 @@ What is that profit?""",
         "4",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "apples": "apples",
+        "pears": "pears",
+        "apple": "apples",
+        "pear": "pears"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -223,6 +244,12 @@ If the profit per desk-lamp sold is $5 and the profit per night-lamp sold is $8,
         "5",
         "8"
     ],
+    "var_mention_to_first_var": {
+        "desk-lamps": "desk-lamps",
+        "night-lamps": "night-lamps",
+        "desk-lamp": "desk-lamps",
+        "night-lamp": "night-lamps"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -287,6 +314,10 @@ Roberts invest in each to maximize profit?""",
         "3%",
         "1%"
     ],
+    "var_mention_to_first_var": {
+        "telecom": "telecom",
+        "healthcare": "healthcare"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -336,6 +367,10 @@ What is this profit?""",
         "350",
         "600"
     ],
+    "var_mention_to_first_var": {
+        "tomatoes": "tomatoes",
+        "potatoes": "potatoes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -392,6 +427,12 @@ How many of each headphone should be made to maximize profit?""",
         "50",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "wired headphones": "wired headphones",
+        "wireless headphones": "wireless headphones",
+        "wired headphone": "wired headphones",
+        "wireless headphone": "wireless headphones"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -440,6 +481,10 @@ If the money invested in his favorite clothing company earns 7% and the money in
         "7%",
         "10%"
     ],
+    "var_mention_to_first_var": {
+        "clothing company": "clothing company",
+        "tech company": "tech company"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -492,6 +537,12 @@ How many of each, carrots and cucumbers, should be sold in order to maximize the
         "0.80",
         "third"
     ],
+    "var_mention_to_first_var": {
+        "carrot": "carrots",
+        "cucumber": "cucumbers",
+        "cucumbers": "cucumbers",
+        "carrots": "carrots"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -558,6 +609,10 @@ What is the minimum amount of vitamin D?""",
         "6",
         "9"
     ],
+    "var_mention_to_first_var": {
+        "fertilizer A": "A",
+        "fertilizer B": "B."
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -617,6 +672,10 @@ Watson's investment.""",
         "0.50",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "condos": "condos",
+        "detached houses": "detached houses"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -670,6 +729,10 @@ How many of each sandwich should be made to maximize profit?""",
         "3",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "special sandwich": "special",
+        "regular sandwich": "regular"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -721,6 +784,12 @@ How many ads of each type should be run to obtain maximum exposure while staying
         "60,500",
         "50,000"
     ],
+    "var_mention_to_first_var": {
+        "radio ad": "radio ads",
+        "social media ad": "social media ads",
+        "radio ads": "radio ads",
+        "social media ads": "social media ads"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximum",
@@ -782,6 +851,13 @@ If each long cable sold results in a $12 profit and each short cable sold result
         "12",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "Long cables": "long",
+        "short cables": "short cables",
+        "long cables": "long",
+        "long cable": "long",
+        "short cable": "short cables"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -835,6 +911,10 @@ Formulate a LP to minimize the wage bill.""",
         "750",
         "third"
     ],
+    "var_mention_to_first_var": {
+        "young adults": "young adults",
+        "senior citizens": "senior citizens"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -904,6 +984,12 @@ How many advertisements should be run in each of the three types of media to max
         "100",
         "3,000"
     ],
+    "var_mention_to_first_var": {
+        "z-tube": "z-tube",
+        "soorchle": "soorchle",
+        "wassa": "wassa",
+        "Soorchle": "soorchle"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -967,6 +1053,10 @@ Determine the maximum profit.""",
         "1.1",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "chair": "chair",
+        "dresser": "dresser"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximum",
@@ -1017,6 +1107,10 @@ Determine the minimum cost of the mixture.""",
         "7",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "Feed A": "Feed A",
+        "Feed B": "Feed B"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimum",
@@ -1069,6 +1163,10 @@ How many jars of each type should the artisan make to maximize profit?""",
         "5",
         "9"
     ],
+    "var_mention_to_first_var": {
+        "thin jar": "thin jar",
+        "stubby jar": "stubby jar"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1121,6 +1219,10 @@ What quantity of each package, banana-haters packages and combo packages, should
         "20",
         "seven"
     ],
+    "var_mention_to_first_var": {
+        "banana-haters packages": "banana-haters package",
+        "combo packages": "combo package"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1182,6 +1284,10 @@ How should the bakery operate to maximize total profit?""",
         "5",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "bread": "bread",
+        "cookies": "cookies"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1236,6 +1342,12 @@ What is the maximum profit?""",
         "8",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "regular glass pane": "regular glass pane",
+        "tempered glass pane": "tempered glass pane",
+        "regular glass": "regular glass pane",
+        "tempered glass": "tempered glass pane"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1288,6 +1400,10 @@ How many of each should be made in order to maximize profit?""",
         "5",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "elephant": "elephants",
+        "tiger": "tigers"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1342,6 +1458,12 @@ If the profit per large art piece is $30 and the profit per small art piece is $
         "30",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "large art piece": "large",
+        "small art piece": "small art pieces",
+        "large": "large",
+        "small art pieces": "small art pieces"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1414,6 +1536,10 @@ If the apartments earn 10%, and the townhouses earn 15%, how much money should t
         "10%",
         "15%"
     ],
+    "var_mention_to_first_var": {
+        "apartments": "apartments",
+        "townhouses": "townhouses"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1468,6 +1594,10 @@ Formulate a LP such that the medicine requirement can be fulfilled at the lowest
         "1",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "Zodiac": "Zodiac",
+        "Sunny": "Sunny"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "lowest",
@@ -1519,6 +1649,10 @@ If the profit per model train is $8 and the profit per model plane is $10, how m
         "8",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "model train": "model trains",
+        "model plane": "planes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1574,6 +1708,12 @@ Formulate an LP that can be used to maximize the store's profit.""",
         "400",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "laptop": "laptops",
+        "phone": "phones",
+        "phones": "phones",
+        "laptops": "laptops"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1634,6 +1774,10 @@ How many kilograms of each type of candy mix should be created to maximize profi
         "0.9",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "regular mix": "regular mix",
+        "sour surprise mix": "sour surprise mix"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1692,6 +1836,13 @@ What is the optimal factory layout to maximize revenue?""",
         "50",
         "70"
     ],
+    "var_mention_to_first_var": {
+        "phone": "phones",
+        "laptop": "laptops",
+        "Phones": "phones",
+        "Laptops": "laptops",
+        "laptops": "laptops"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1747,6 +1898,10 @@ How many of each should be made and sold to maximize profit?""",
         "1000",
         "300"
     ],
+    "var_mention_to_first_var": {
+        "premium desktop": "premium desktops",
+        "regular desktop": "regular desktops"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1791,6 +1946,12 @@ How many cars of each model should the manufacturer make in order to maximize pr
         "5000",
         "8500"
     ],
+    "var_mention_to_first_var": {
+        "regular models": "regular model",
+        "premium models": "premium model",
+        "regular model": "regular model",
+        "premium model": "premium model"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1843,6 +2004,10 @@ How many of each desk should you buy in order to maximize the seating availabili
         "4",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "Short desks": "short desks",
+        "Long desks": "long desks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -1895,6 +2060,11 @@ Determine the minimum cost of Ayse's compound.""",
         "5",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "Fertilizer C": "C",
+        "Y": "Y.",
+        "Fertilizer Y": "Y."
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimum",
@@ -1947,6 +2117,10 @@ Formulate a LP to minimize the cost for the patient.""",
         "4",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "pill A": "pill A",
+        "pill B": "pill B."
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -2001,6 +2175,10 @@ How many containers of each of oil should the car manufacturer make to maximize 
         "10",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "Oil Max": "Oil Max",
+        "Oil Max Pro": "Oil Max Pro"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2062,6 +2240,12 @@ How many mangos and guavas should be sold in order to maximize the profit?""",
         "4",
         "third"
     ],
+    "var_mention_to_first_var": {
+        "mango": "mangos",
+        "guava": "guavas",
+        "mangos": "mangos",
+        "guavas": "guavas"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2127,6 +2311,10 @@ How many cups of each drink should be used to make the vitamin mix in order to m
         "20",
         "12"
     ],
+    "var_mention_to_first_var": {
+        "drink A": "A",
+        "drink B": "B."
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -2189,6 +2377,10 @@ If the profit per gallon of chocolate ice cream is $200 and the profit per gallo
         "200",
         "300"
     ],
+    "var_mention_to_first_var": {
+        "chocolate ice cream": "chocolate",
+        "vanilla ice cream": "vanilla ice cream"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2265,6 +2457,10 @@ What is that profit?""",
         "500",
         "650"
     ],
+    "var_mention_to_first_var": {
+        "potatoes": "potatoes",
+        "cucumbers": "cucumbers"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2320,6 +2516,11 @@ If a square foot of hardwood flooring yields a profit of $2.5 and a square foot 
         "2.5",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "vinyl  ": "vinyl planks",
+        "hardwood": "hardwood",
+        "vinyl planks": "vinyl planks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2387,6 +2588,10 @@ Formulate a LP to meet his contract while minimizing his cost.""",
         "1",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "old farm": "old",
+        "new farm": "new farm"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimizing",
@@ -2449,6 +2654,10 @@ Formulate a linear programming problem that will help minimize the cost of the d
         "200",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "Kebab": "Kebabs",
+        "Rice": "Rice"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -2502,6 +2711,10 @@ How many of each should the company make per month to maximize profit?""",
         "4",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "scooter": "scooters",
+        "bike": "bikes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2554,6 +2767,11 @@ Formulate an LP problem in order to maximize profit.""",
         "56",
         "75"
     ],
+    "var_mention_to_first_var": {
+        "blueberries": "blueberries",
+        "raspberries,": "raspberries.",
+        "raspberries": "raspberries."
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2611,6 +2829,11 @@ If vegetables cost $3 per serving and fruits cost $5 per serving, how many servi
         "3",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "vegetables": "vegetable",
+        "fruit": "fruits",
+        "fruits": "fruits"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -2662,6 +2885,10 @@ Using all the available capacity, what is the maximum profit the bakery can gene
         "20",
         "40"
     ],
+    "var_mention_to_first_var": {
+        "croissants": "croissants",
+        "bagels": "bagels"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximum",
@@ -2716,6 +2943,7 @@ Given this information, develop a linear programming problem assuming the teddy 
         "10",
         "10"
     ],
+    "var_mention_to_first_var": {},
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -2776,6 +3004,12 @@ If the revenue per acre of turnips is $300 and the revenue per acre of pumpkins 
         "300",
         "450"
     ],
+    "var_mention_to_first_var": {
+        "Turnips": "turnips",
+        "Pumpkins": "pumpkins",
+        "turnips": "turnips",
+        "pumpkins": "pumpkins"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -2831,6 +3065,10 @@ If the school has a budget of $40000, how many of each teacher should be hired t
         "3",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "staff teachers": "staff",
+        "substitute teachers": "substitute teachers"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -2882,6 +3120,12 @@ How many of each drill should be used to minimize the total number of drills nee
         "30",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "high intensity drill": "high intensity",
+        "low intensity drill": "low intensity",
+        "high intensity": "high intensity",
+        "low intensity drills": "low intensity"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -2945,6 +3189,10 @@ How many of each type of store should the company open to minimize the total num
         "50",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "dine-in place": "dine-in place",
+        "food-truck": "food-truck"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -2996,6 +3244,10 @@ How many processes of each type should be run to maximize the total number of co
         "3",
         "7"
     ],
+    "var_mention_to_first_var": {
+        "Process A": "process A",
+        "Process B": "process B"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -3046,6 +3298,10 @@ How many of each type of saw should be purchased to minimize the total number of
         "70",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "miter saw": "miter saw",
+        "circular saw": "circular saw"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3098,6 +3354,10 @@ For how many acres should each machine be used to maximize the amount of hay pro
         "3",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "windrower": "windrower",
+        "hay harvester": "hay harvester"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -3158,6 +3418,11 @@ How many of each should the fast food place make to minimize the total productio
         "8",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "wrap": "wraps",
+        "platter": "platters",
+        "wraps": "wraps"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -3216,6 +3481,12 @@ How many of each machine should be bought to minimize the total number of machin
         "4",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "cash-based machine": "cash-based",
+        "card-only machine": "card-only",
+        "card-only machines": "card-only",
+        "cash-based machines": "cash-based"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3271,6 +3542,12 @@ If the farmer has 20000 ml of honey, how many jars of each should be filled to m
         "300",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "glass jar": "glass",
+        "plastic jar": "plastic jars",
+        "glass jars": "glass",
+        "plastic jars": "plastic jars"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -3327,6 +3604,13 @@ How many of each bubble tea flavor should be made to minimize the total amount o
         "6",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "lychee bubble tea": "lychee bubble tea",
+        "lychee": "lychee bubble tea",
+        "mango bubble tea": "mango bubble tea",
+        "mango bubble teas": "mango bubble tea",
+        "lychee bubble teas": "lychee bubble tea"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -3388,6 +3672,10 @@ If the city has a budget of $6500, how many of each type of worker should be hir
         "10",
         "250"
     ],
+    "var_mention_to_first_var": {
+        "seasonal snow remover": "seasonal",
+        "permanent snow remover": "permanent"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3437,6 +3725,11 @@ If the high rise needs to heat at least 200 apartments and has 3500 kWh of elect
         "15",
         "250"
     ],
+    "var_mention_to_first_var": {
+        "new model furnace": "new model",
+        "old model": "old model",
+        "new model furnaces": "new model"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3500,6 +3793,10 @@ How many of each factory type should be built to minimize the total number of fa
         "200",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "rural factory": "rural",
+        "urban factory": "urban"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3549,6 +3846,11 @@ How many of each machine should they buy to minimize the total number of machine
         "50",
         "70"
     ],
+    "var_mention_to_first_var": {
+        "counter-top sized": "counter-top sized",
+        "fridge sizes one": "fridge sized one",
+        "fridge sized one": "fridge sized one"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3600,6 +3902,10 @@ How many of each container should be used to maximize the amount of paste that c
         "20",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "small container": "small",
+        "large container": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -3652,6 +3958,10 @@ For how many acres should each oil well be used to maximize the total production
         "20",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "small oil well": "small",
+        "large oil well": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -3711,6 +4021,12 @@ If making an almond croissant takes 12 minutes and making a pistachio croissant 
         "12",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "almond croissant": "almond",
+        "pistachio croissant": "pistachio",
+        "almond croissants": "almond",
+        "pistachio croissants": "pistachio"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -3769,6 +4085,12 @@ How many of each grill should be bought to minimize the total number of grills i
         "20",
         "25"
     ],
+    "var_mention_to_first_var": {
+        "gas grill": "gas",
+        "electric grill": "electric",
+        "electric grills": "electric",
+        "gas grills": "gas"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3824,6 +4146,11 @@ If the company has 25000 ml of cough syrup available, how many bottles of each s
         "300",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "kids size bottle": "kids",
+        "adult size bottle": "adult size",
+        "kids size bottles": "kids"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -3879,6 +4206,13 @@ If the bakery has 2500 units of chocolate mix and 3300 units of lemon mix, how m
         "7",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "brownie": "brownies",
+        "lemon square": "lemon squares",
+        "Lemon squares": "lemon squares",
+        "lemon squares": "lemon squares",
+        "brownies": "brownies"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -3941,6 +4275,12 @@ If the firm has a budget of $9000, how many of each healthcare worker should be 
         "300",
         "200"
     ],
+    "var_mention_to_first_var": {
+        "nurse": "nurses",
+        "pharmacist": "pharmacists",
+        "Nurses": "nurses",
+        "pharmacists": "pharmacists"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -3992,6 +4332,12 @@ How many of each machine should the laundromat buy to minimize the total number 
         "85",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "top-loading model": "top-loading model",
+        "front-loading model": "front-loading model",
+        "top-loading": "top-loading model",
+        "front-loading": "front-loading model"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4055,6 +4401,10 @@ How many of each branch size should they build to minimize the total number of b
         "100",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "small branch": "small",
+        "large branch": "large branches"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4105,6 +4455,10 @@ How many of each type of van should they buy to minimize the total number of van
         "300",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "regular van": "regular",
+        "hybrid van": "hybrid"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4156,6 +4510,10 @@ How many of each process should be used to maximize the amount of carbon dioxide
         "12",
         "18"
     ],
+    "var_mention_to_first_var": {
+        "process with a catalyst": "with a catalyst",
+        "process without a catalyst": "without a catalyst"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -4207,6 +4565,10 @@ For how many acres should each machine be used to maximize the amount of tea lea
         "15",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "traditional machine": "traditional machine",
+        "modern machine": "modern machine"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -4260,6 +4622,12 @@ If a light grilled cheese sandwich takes 10 minutes to make and a heavy grilled 
         "10",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "light grilled cheese sandwich": "light",
+        "heavy grilled cheese sandwich": "heavy",
+        "heavy grilled cheese sandwiches": "heavy",
+        "light grilled cheese sandwiches": "light"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -4318,6 +4686,10 @@ How many of each stamping machine should they purchase to minimize the total num
         "20",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "dual model stamping": "dual",
+        "single model stamping": "single"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4373,6 +4745,12 @@ If the company has available 500 bananas, how many of each crate should the comp
         "50",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small crate": "small",
+        "large crate": "large",
+        "large crates": "large",
+        "small crates": "small"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -4429,6 +4807,12 @@ How many of each should the store make to minimize the total amount of crepe mix
         "4",
         "7"
     ],
+    "var_mention_to_first_var": {
+        "peanut butter crepe": "peanut butter crepes",
+        "peanut butter crepes": "peanut butter crepes",
+        "chocolate crepes": "chocolate crepe",
+        "chocolate": "chocolate crepe"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -4490,6 +4874,10 @@ If the fire department has a budget of $7000, how many of each should the fire d
         "6",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "regular fire fighter": "regular",
+        "emergency fire fighter": "emergency fire"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4540,6 +4928,10 @@ If the mall must be able to deliver at least 1000 drops per minute and can use a
         "75",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "motion activated": "motion activated",
+        "manual": "manual"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4603,6 +4995,10 @@ How many of each butcher shop should the company build to minimize the total num
         "70",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "small shop": "small shop",
+        "large shop": "large shop"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4653,6 +5049,10 @@ How many of each vehicle should the airport buy to minimize the total number of 
         "40",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "4-wheeler vehicle": "4-wheeler",
+        "3-wheeler vehicle": "3-wheeler,"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4704,6 +5104,10 @@ How many of each experiment should the scientist conduct to maximize the total a
         "4",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "experiment alpha": "experiment alpha",
+        "experiment beta": "experiment beta"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -4755,6 +5159,10 @@ For how many acres each should he use each fishing method to maximize the amount
         "3",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "net": "net",
+        "fishing line": "fishing line"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -4815,6 +5223,12 @@ How many of each should they make to minimize the total production time?""",
         "3",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "mocha": "mochas",
+        "regular coffee": "regular coffees",
+        "mochas": "mochas",
+        "regular coffees": "regular coffees"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -4873,6 +5287,12 @@ How many of each slicer should the butcher shop buy to minimize the total number
         "3",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "manual slicer": "manual",
+        "automatic slicer": "automatic",
+        "manual slicers": "manual",
+        "automatic slicers": "automatic"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -4928,6 +5348,12 @@ If the company has available 250000 ml of water, how many of each bottle should 
         "750",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "glass bottle": "glass",
+        "plastic bottle": "plastic",
+        "plastic bottles": "plastic",
+        "glass bottles": "glass"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -4984,6 +5410,10 @@ How many of each type of curry bowl should be made to minimize the total amount 
         "5",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "goat curry": "goat",
+        "chicken curry": "chicken"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5045,6 +5475,11 @@ If the firm has a budget of $15000, how many of each type of worker should be sc
         "300",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "Full time workers": "full time workers",
+        "part time workers": "part time workers",
+        "full time workers": "full time workers"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -5096,6 +5531,12 @@ How many of each machine should be used to minimize the total number of machines
         "50",
         "120"
     ],
+    "var_mention_to_first_var": {
+        "machine A": "A",
+        "Machine B": "B.",
+        "B.": "B.",
+        "A": "A"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -5159,6 +5600,10 @@ How many of each factory should the company build to minimize the total number o
         "35",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "medium sized factory": "medium sized factory",
+        "small factory": "small factory"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -5208,6 +5653,10 @@ How many of each type of generator should they buy to minimize the number of gen
         "30",
         "200"
     ],
+    "var_mention_to_first_var": {
+        "Generator A": "generator A",
+        "Generator B": "generator B"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -5259,6 +5708,10 @@ How many reactions of each type should be done to maximize the amount of rare co
         "3",
         "8"
     ],
+    "var_mention_to_first_var": {
+        "Chemical reaction A": "chemical reaction A",
+        "Chemical reaction B": "chemical reaction B."
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -5310,6 +5763,10 @@ Find the proportion of lands that use each mining technique in order to maximize
         "17",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "heap leaching": "heap leaching",
+        "vat leaching": "vat leaching"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -5369,6 +5826,15 @@ If making a milk chocolate bar takes 15 minutes and making a dark chocolate bar 
         "15",
         "12"
     ],
+    "var_mention_to_first_var": {
+        "Milk chocolate bars": "milk chocolate",
+        "Dark chocolate bars": "dark chocolate bars",
+        "milk chocolate": "milk chocolate",
+        "milk chocolate bars": "milk chocolate",
+        "dark chocolate bars": "dark chocolate bars",
+        "milk chocolate bar": "milk chocolate",
+        "dark chocolate bar": "dark chocolate bars"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5427,6 +5893,12 @@ How many of each printer should be bought to minimize the total number of printe
         "4",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "premium model": "premium model",
+        "regular model": "regular model",
+        "regular printers": "regular model",
+        "premium printers": "premium model"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -5483,6 +5955,12 @@ How many of each should be made to maximize the total number of bottles produced
         "750",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "vintage bottle": "vintage",
+        "regular bottle": "regular bottles",
+        "vintage bottles": "vintage",
+        "regular bottles": "regular bottles"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -5539,6 +6017,14 @@ How many of each should be made to minimize the total amount of special syrup us
         "5",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "peach flavored candy": "peach flavored candy",
+        "cherry flavored candy": "cherry flavored candy",
+        "Peach candy": "peach flavored candy",
+        "peach candy": "peach flavored candy",
+        "cherry candy": "cherry flavored candy",
+        "cherry flavored": "cherry flavored candy"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5603,6 +6089,10 @@ How many pills of each should the patient be given to minimize the total amount 
         "0.3",
         "0.1"
     ],
+    "var_mention_to_first_var": {
+        "pill 1": "Pill 1",
+        "pill 2": "Pill 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5654,6 +6144,11 @@ How many bottles of each should he drink to minimize his sugar intake?""",
         "15",
         "300"
     ],
+    "var_mention_to_first_var": {
+        "alpha brand drink": "alpha",
+        "omega brand drink": "omega",
+        "omega brand": "omega"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5715,6 +6210,12 @@ If at most 30 units of waste can be produced, how many of each beaker should be 
         "4",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "Beaker 1": "beaker 1",
+        "Beaker 2": "beaker 2",
+        "beaker 1": "beaker 1",
+        "beaker 2": "beaker 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -5775,6 +6276,13 @@ How many of each bone should be made to minimize the amount of meat needed?""",
         "15",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "small bone": "small",
+        "large bone": "large bones",
+        "small bones": "small",
+        "small": "small",
+        "large bones": "large bones"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5831,6 +6339,10 @@ How many of each juice box should he drink to maximize his total vitamin D intak
         "6",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "orange juice": "orange",
+        "apple juice": "apple juice"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -5885,6 +6397,10 @@ How many units of each should be used to minimize the total time it takes for a 
         "6",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "cleansing chemical": "cleansing chemical",
+        "odor-removing chemical": "odor-removing chemical"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -5938,6 +6454,11 @@ If the company must make at least 700 allergy pills and 600 fever reducing pills
         "20",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "Factory 1": "factory 1",
+        "Factory 2": "factory 2",
+        "factory 2": "factory 2"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -6001,6 +6522,12 @@ If each fish meal contains 7 units of fat and each chicken meal contains 10 unit
         "7",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "fish meal": "fish",
+        "chicken meal": "chicken",
+        "chicken meals": "chicken",
+        "fish meals": "fish"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6062,6 +6589,12 @@ If a regular batch can treat 50 people and a premium batch can treat 30 people, 
         "50",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "regular batch": "regular batch",
+        "premium batch": "premium batch",
+        "regular batches": "regular batch",
+        "premium batches": "premium batch"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -6124,6 +6657,10 @@ If the clinic is open for 20000 minutes, maximize the number of patients whose b
         "15",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "automatic machine": "automatic machine",
+        "manual machine": "manual machine"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -6181,6 +6718,10 @@ How many servings of each should the patient take to minimize his sugar intake?"
         "0.5",
         "0.3"
     ],
+    "var_mention_to_first_var": {
+        "syrup 1": "syrup 1",
+        "syrup 2": "syrup 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6233,6 +6774,11 @@ If each crab cake contains 4 units of unsaturated fat and each lobster roll cont
         "4",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "crab cake": "crab cakes",
+        "lobster roll": "lobster roll",
+        "lobster rolls": "lobster roll"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6294,6 +6840,10 @@ If at most 50 units of black tar can be produced, how many of each demonstration
         "5",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "demonstration 1": "demonstration 1",
+        "demonstration 2": "demonstration 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -6354,6 +6904,12 @@ How many of each vaccine should be made to minimize the amount of fever suppress
         "75",
         "75"
     ],
+    "var_mention_to_first_var": {
+        "children's vaccine": "children's",
+        "adult vaccine": "adult vaccines",
+        "adult vaccines": "adult vaccines",
+        "children's vaccines": "children's"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6409,6 +6965,12 @@ If the baby can consume at most 100 units of folate, how many servings of each s
         "3",
         "three"
     ],
+    "var_mention_to_first_var": {
+        "apple flavored baby": "apple",
+        "carrot flavored baby": "carrot",
+        "carrot flavor": "carrot",
+        "apple flavored baby food": "apple"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -6463,6 +7025,10 @@ How many units of each should be added to minimize the total time it takes for t
         "1.5",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "fertilizer": "fertilizer",
+        "seeds": "seeds"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6517,6 +7083,11 @@ How many hours should each factory be run to minimize the total time needed?""",
         "30",
         "45"
     ],
+    "var_mention_to_first_var": {
+        "Factory 1": "factory 1",
+        "Factory 2": "factory 2",
+        "factory 2": "factory 2"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -6581,6 +7152,11 @@ How many of each should he eat to minimize his cholesterol intake?""",
         "10",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "burger": "burgers",
+        "pizza": "pizza",
+        "burgers": "burgers"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6642,6 +7218,10 @@ If each batch of vitamin shots can supply 10 people and each batch of vitamin pi
         "10",
         "7"
     ],
+    "var_mention_to_first_var": {
+        "vitamin shots": "vitamin shots",
+        "vitamin pills": "pills"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -6704,6 +7284,10 @@ If the office is open for 15000 minutes, maximize the number of patients whose t
         "2",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "electronic thermometer": "electronic",
+        "regular thermometer": "regular thermometer"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -6760,6 +7344,12 @@ If at most 8 units of medicine can be received by the heart and at least 4 units
         "0.3",
         "0.5"
     ],
+    "var_mention_to_first_var": {
+        "Machine 1": "machine 1",
+        "Machine 2": "machine 2",
+        "machine 1": "machine 1",
+        "machine 2": "machine 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6812,6 +7402,10 @@ How many of each should he eat to minimize his sodium intake?""",
         "10",
         "75"
     ],
+    "var_mention_to_first_var": {
+        "ramen": "ramen",
+        "fries": "fries"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6873,6 +7467,10 @@ If at most 50 units of heat can be given off, how many of each box should the st
         "2",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "cheap box": "cheap",
+        "expensive box": "expensive box"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -6933,6 +7531,12 @@ How many of each should the pharmacy make to minimize the total amount of digest
         "6",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "painkiller pill": "painkillers",
+        "sleeping pill": "sleeping pills",
+        "painkiller pills": "painkillers",
+        "sleeping pills": "sleeping pills"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -6988,6 +7592,12 @@ If the boy can consume at most 200 units of magnesium, how many of each should h
         "5",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "gummy": "gummies",
+        "pill": "pills",
+        "pills": "pills",
+        "gummies": "gummies"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -7041,6 +7651,11 @@ How many units of each should the patient take to minimize the total time it tak
         "5",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "anxiety medication": "anxiety medication",
+        "anti-depressant": "anti-depressants one",
+        "anti-depressants": "anti-depressants one"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7094,6 +7709,12 @@ If the pharmacy needs to make at least 1300 ml of eye cream and 1500 ml of foot 
         "20",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "Machine 1": "machine 1",
+        "Machine 2": "machine 2",
+        "machine 1": "machine 1",
+        "machine 2": "machine 2"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -7157,6 +7778,10 @@ If the woman needs to consume at least 10000 calories and 800 grams of protein t
         "15",
         "12"
     ],
+    "var_mention_to_first_var": {
+        "almonds": "almonds",
+        "cashews": "cashews"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7218,6 +7843,14 @@ If each liquid hand sanitizer can clean 30 hands and each foam hand sanitizer ca
         "30",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "Liquid hand sanitizer": "liquid",
+        "Foam hand sanitizer": "foam hand sanitizer",
+        "foam hand sanitizers": "foam hand sanitizer",
+        "liquid hand sanitizers": "liquid",
+        "liquid hand sanitizer": "liquid",
+        "foam hand sanitizer": "foam hand sanitizer"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -7280,6 +7913,12 @@ If the clinic is only operational for 20000 minutes, how many of each swab shoul
         "3",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "throat swab": "throat",
+        "nasal swab": "nasal swabs",
+        "nasal swabs": "nasal swabs",
+        "throat swabs": "throat"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -7337,6 +7976,10 @@ How many doses of each should be taken to maximize the amount of medicine delive
         "0.3",
         "0.6"
     ],
+    "var_mention_to_first_var": {
+        "pain killer 1": "pain killer 1",
+        "pain killer 2": "pain killer 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -7389,6 +8032,12 @@ If excess sugar makes the gorilla aggressive, how many of each fruit should he c
         "15",
         "8"
     ],
+    "var_mention_to_first_var": {
+        "banana": "bananas",
+        "mango": "mangoes",
+        "bananas": "bananas",
+        "mangoes": "mangoes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7450,6 +8099,10 @@ If at most 30 units of mess can be made, how many of each table should be set up
         "2",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "table 1": "table 1",
+        "table 2": "table 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -7510,6 +8163,12 @@ How many of each pill should be made to minimize the total amount of sleep medic
         "5",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "daytime pill": "daytime",
+        "nighttime pill": "nighttime painkiller",
+        "daytime pills": "daytime",
+        "nighttime pills": "nighttime painkiller"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7565,6 +8224,10 @@ If he can consume at most 10000 calories in one day, how many slices of each cak
         "50",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "cheesecake": "cheesecake",
+        "caramel cake": "caramel cake"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -7619,6 +8282,11 @@ How many units of each should be added to the shampoo to minimize the total amou
         "0.75",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "sulfate": "sulfate",
+        "ginger": "ginger",
+        "sulfates": "sulfate"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7672,6 +8340,10 @@ How many hours at each lab should be run to minimize the total time needed?""",
         "3",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "lab 1": "lab 1",
+        "lab 2": "lab 2"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -7735,6 +8407,11 @@ How many of each should he eat to minimize his sugar intake?""",
         "6",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "orange": "oranges",
+        "grapefruit": "grapefruit",
+        "oranges": "oranges"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7795,6 +8472,11 @@ If one dose of medicine A can treat 12 people and one dose of medicine B can tre
         "12",
         "8"
     ],
+    "var_mention_to_first_var": {
+        "medicine A": "medicine A",
+        "medicine B": "medicine B.",
+        "medicine A.": "medicine A"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -7857,6 +8539,12 @@ If the popup clinic operates for 8000 minutes, maximize the number of tests that
         "15",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "spit test": "spit tests",
+        "swab": "swabs",
+        "spit tests": "spit tests",
+        "swabs": "swabs"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -7914,6 +8602,12 @@ How many minutes of each beam should be used to minimize the total radiation rec
         "0.6",
         "0.4"
     ],
+    "var_mention_to_first_var": {
+        "Beam 1": "Beam 1",
+        "Beam 2": "Beam 2",
+        "beam 1": "Beam 1",
+        "beam 2": "Beam 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -7966,6 +8660,10 @@ How many of each meal should he eat if he wants to minimize his fat intake?""",
         "25",
         "8"
     ],
+    "var_mention_to_first_var": {
+        "turkey dinner": "turkey dinner",
+        "tuna salad sandwich": "tuna salad sandwich"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8027,6 +8725,10 @@ If at most 10 units of smelly gas can be produced, how many experiments of each 
         "1",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "experiment 1": "experiment 1",
+        "experiment 2": "experiment 2"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -8087,6 +8789,13 @@ How many of each should be made to minimize the total number of filler material 
         "2",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "large pill": "large pill",
+        "small pill": "small pill",
+        "large pills": "large pill",
+        "small pills": "small pill",
+        "small": "small pill"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8139,6 +8848,10 @@ If there has to be at least 200 units of chlorine in the water and a total of 50
         "2",
         "half"
     ],
+    "var_mention_to_first_var": {
+        "chlorine": "chorine",
+        "water softener": "water softener"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8186,6 +8899,11 @@ How many of each process should be run to minimize the total time needed?""",
         "50",
         "60"
     ],
+    "var_mention_to_first_var": {
+        "Process 1": "process 1",
+        "Process 2": "process 2",
+        "process 2": "process 2"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -8249,6 +8967,10 @@ If a pack of blueberries contains 5 grams of sugar and a pack of strawberries co
         "5",
         "7"
     ],
+    "var_mention_to_first_var": {
+        "blueberries": "blueberries",
+        "strawberries": "strawberries"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8308,6 +9030,12 @@ If a beam bridge can hold 40 grams and a truss bridge can hold 60 grams, how man
         "40",
         "60"
     ],
+    "var_mention_to_first_var": {
+        "truss bridge": "truss bridges",
+        "beam bridge": "beam bridges",
+        "truss bridges": "truss bridges",
+        "beam bridges": "beam bridges"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -8371,6 +9099,13 @@ If the clinic only operates for 10000 minutes, maximize the number of patients t
         "20",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "pill vaccine": "pill",
+        "shot": "shot",
+        "shots": "shot",
+        "pill": "pill",
+        "pill vaccines": "pill"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -8426,6 +9161,12 @@ How many of trip by each should be done to minimize the total number of trips?""
         "30",
         "50"
     ],
+    "var_mention_to_first_var": {
+        "vans": "vans",
+        "truck": "trucks",
+        "van": "vans",
+        "trucks": "trucks"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -8482,6 +9223,12 @@ How many of each bottle should be use to maximize the total amount of honey he c
         "20",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small bottle": "small",
+        "large bottle": "large",
+        "small bottles": "small",
+        "large bottles": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -8547,6 +9294,10 @@ How many of each trip should be made to minimize the total amount of fuel consum
         "20",
         "300"
     ],
+    "var_mention_to_first_var": {
+        "ship": "ships",
+        "plane": "planes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8600,6 +9351,12 @@ If at least 300 ducks need to be taken to shore, how many of each transportation
         "20",
         "40"
     ],
+    "var_mention_to_first_var": {
+        "boat": "boat",
+        "canoe": "canoe",
+        "boats": "boat",
+        "canoes": "canoe"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8654,6 +9411,10 @@ How many of each van should be used to minimize the total amount of pollution pr
         "50",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "old van": "old",
+        "new van": "new vans"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -8703,6 +9464,12 @@ How many of each team type should be used to maximize the amount of lawn that ca
         "80",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "small team": "small teams",
+        "large team": "large teams",
+        "small teams": "small teams",
+        "large teams": "large teams"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -8764,6 +9531,11 @@ If the aquarium only has 200 treats available, maximize the total number of tric
         "1",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "otter": "otters",
+        "dolphin": "dolphins",
+        "dolphins": "dolphins"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -8815,6 +9587,12 @@ Find the minimum number of vans that can be used?""",
         "50",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "van": "vans",
+        "truck": "trucks",
+        "trucks": "trucks",
+        "vans": "vans"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimum",
@@ -8858,6 +9636,12 @@ If at least 2000 units of oil need to be sent to the port and at least 15 contai
         "40",
         "half"
     ],
+    "var_mention_to_first_var": {
+        "container": "containers",
+        "truck": "trucks",
+        "trucks": "trucks",
+        "containers": "containers"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -8910,6 +9694,11 @@ How many of each type of bus should be hired to minimize the total number of bus
         "20",
         "50"
     ],
+    "var_mention_to_first_var": {
+        "small bus": "small buses",
+        "large bus": "large buses",
+        "large buses": "large buses"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -8957,6 +9746,12 @@ How should they plan their shipment to minimize the total number of trips?""",
         "500",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "truck": "trucks",
+        "van": "vans",
+        "trucks": "trucks",
+        "vans": "vans"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -9013,6 +9808,12 @@ How many of each bouquet should he transport to maximize the total number of flo
         "10",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small bouquet": "small bouquets",
+        "large bouquet": "large bouquets",
+        "small bouquets": "small bouquets",
+        "large bouquets": "large bouquets"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -9079,6 +9880,10 @@ How many trips should each company make to minimize the total amount of diesel u
         "30",
         "40"
     ],
+    "var_mention_to_first_var": {
+        "new company": "new one",
+        "old company": "old one"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -9133,6 +9938,10 @@ If the zoo needs to transport 300 monkeys, how many trips of each should be done
         "6",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "bus": "bus",
+        "car": "car"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -9186,6 +9995,10 @@ How many of each type of trip should be taken to minimize the total amount of po
         "7",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "helicopter": "helicopters",
+        "truck": "trucks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -9234,6 +10047,12 @@ If the company has 100 people available, maximize the amount of sand that they c
         "50",
         "thrice"
     ],
+    "var_mention_to_first_var": {
+        "small container": "small",
+        "large container": "large",
+        "small containers": "small",
+        "large containers": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -9295,6 +10114,12 @@ If the company only has 200 units of charge available, how many of each vehicle 
         "5",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "bike": "electric bikes",
+        "scooter": "scooters",
+        "scooters": "scooters",
+        "bikes": "electric bikes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -9345,6 +10170,12 @@ If the manufacturer wants to deliver at least 300 cars, find the minimum number 
         "30",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "large plane": "large",
+        "small plane": "small",
+        "large planes": "large",
+        "small planes": "small"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimum",
@@ -9390,6 +10221,12 @@ If 2000 units of ore need to taken to the surface, minimize the total number of 
         "50",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small wagon": "small",
+        "large wagon": "large",
+        "small wagons": "small",
+        "large wagons": "large"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -9441,6 +10278,11 @@ If the park needs to transport at least 300 visitors, minimize the total number 
         "2",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "scooter": "scooter",
+        "rickshaw": "rickshaw",
+        "rickshaws": "rickshaw"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -9487,6 +10329,12 @@ How many of each animal should be used to minimize the total number of animals?"
         "20",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "camel": "camels",
+        "horse": "horses",
+        "horses": "horses",
+        "camels": "camels"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -9542,6 +10390,12 @@ If he must send at least 15 large suitcases and can send  at most 70 suitcases i
         "80",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small suitcase": "small",
+        "large suitcase": "large",
+        "small suitcases": "small",
+        "large suitcases": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -9607,6 +10461,11 @@ If the service needs to deliver 1000 pieces of mail, how many trips of each shou
         "30",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "regular boat": "regular",
+        "speed boat": "speed boats",
+        "speed boats": "speed boats"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -9660,6 +10519,10 @@ If the farmer needs to transport 1200 chicken, how many trips of each should be 
         "40",
         "1.5"
     ],
+    "var_mention_to_first_var": {
+        "bus": "bus",
+        "car": "car"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -9714,6 +10577,12 @@ How many of each should be used to minimize the total amount of pollution produc
         "10",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "van": "van",
+        "minibus": "minibus",
+        "vans": "van",
+        "minibuses": "minibus"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -9770,6 +10639,12 @@ How many of each bin type should be used to maximize the total amount of recycli
         "60",
         "three"
     ],
+    "var_mention_to_first_var": {
+        "small bin": "small",
+        "large bin": "large bins",
+        "small bins": "small",
+        "large bins": "large bins"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -9832,6 +10707,12 @@ How many of each volunteer is needed to maximize the total number of gifts that 
         "8",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "seasonal volunteer": "seasonal",
+        "full-time volunteer": "full-time",
+        "seasonal": "seasonal",
+        "full-time": "full-time"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -9882,6 +10763,12 @@ If the company wants to ship at least 100000 ml of jam, find the minimum number 
         "50",
         "200"
     ],
+    "var_mention_to_first_var": {
+        "small jar": "small",
+        "large jar": "large",
+        "large jars": "large",
+        "small jars": "small"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimum",
@@ -9926,6 +10813,12 @@ If at least 500 kg of corn need to be sent to the city, minimize the total numbe
         "20",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "tractor": "tractor",
+        "car": "car",
+        "cars": "car",
+        "tractors": "tractor"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -9970,6 +10863,11 @@ If the village needs to transport at least 500 people, how many of each vehicle 
         "3",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "bike": "bike",
+        "car": "car",
+        "cars": "car"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -10016,6 +10914,11 @@ How many trips of each should be done to minimize the total number of trips?""",
         "6",
         "700"
     ],
+    "var_mention_to_first_var": {
+        "cargo plane": "cargo planes",
+        "ultrawide truck": "ultrawide trucks",
+        "plane": "cargo planes"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -10071,6 +10974,13 @@ If he can transport at most 25 kegs total and at least 5 kegs must be large, how
         "100",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small keg": "small",
+        "large keg": "large",
+        "small kegs": "small",
+        "large kegs": "large",
+        "large": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -10135,6 +11045,10 @@ If the city needs to transport at least 1000 pieces of mail, how many of each tr
         "80",
         "25"
     ],
+    "var_mention_to_first_var": {
+        "submarine": "submarine",
+        "boat": "boat"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -10189,6 +11103,10 @@ If at least 300 fish need to transported, how many of each trip should be taken 
         "20",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "helicopter": "helicopter",
+        "car": "car"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -10242,6 +11160,11 @@ How many of each type of transport method should be taken to minimize the total 
         "10",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "hot air balloon": "hot-air balloon",
+        "gondola lift": "gondola lift",
+        "hot-air balloon": "hot-air balloon"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -10291,6 +11214,12 @@ How many of each cart size should be used to maximize the amount of rice that ca
         "70",
         "three"
     ],
+    "var_mention_to_first_var": {
+        "medium sized cart": "medium",
+        "large sized cart": "large",
+        "medium sized carts": "medium",
+        "large sized carts": "large"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -10353,6 +11282,12 @@ How many of each dog should be used to maximize the number of newspapers that ca
         "10",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "labrador": "labradors",
+        "golden retriever": "golden retrievers",
+        "golden retrievers": "golden retrievers",
+        "labradors": "labradors"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -10405,6 +11340,12 @@ If the company needs to transport at least 1000 bricks, find the minimum number 
         "50",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "cow": "cows",
+        "elephant": "elephants",
+        "cows": "cows",
+        "elephants": "elephants"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimum",
@@ -10457,6 +11398,12 @@ If the farmer wants to send at least 500 boxes of corn, minimize the total numbe
         "15",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "ferry trip": "ferry",
+        "light rail": "light rail",
+        "ferry": "ferry",
+        "ferry trips": "ferry"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -10502,6 +11449,11 @@ If the company needs to transport at least 500 employees, how many rides of each
         "2",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "taxi ride": "taxis",
+        "company car ride": "company cars",
+        "company car rides": "company cars"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -10555,6 +11507,12 @@ How many of each transportation method should they use to minimize the total num
         "30",
         "200"
     ],
+    "var_mention_to_first_var": {
+        "high-pressure tube": "high pressure tube",
+        "liquefied hydrogen tankers": "liquefied hydrogen tankers",
+        "high pressure tube trailer": "high pressure tube",
+        "liquefied hydrogen tanker": "liquefied hydrogen tankers"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -10611,6 +11569,13 @@ How many of each crate should he use to maximize the total number of grapes he c
         "500",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "small crate": "small crates",
+        "large crate": "large crates",
+        "smaller crates": "small crates",
+        "small crates": "small crates",
+        "large crates": "large crates"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -10676,6 +11641,10 @@ How many of each transportation should they use to minimize the total amount of 
         "20",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "truck": "truck",
+        "car": "car"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -10730,6 +11699,10 @@ How should the patients be taken to minimize the total time to transport the pat
         "8",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "helicopter": "helicopter",
+        "bus": "bus"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -10782,6 +11755,11 @@ How many of each type of transport should be taken to minimize the total polluti
         "20",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "car": "car",
+        "bus": "bus",
+        "buses": "bus"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -10831,6 +11809,13 @@ How many of each truck should be used to maximize the total amount of snow that 
         "50",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "small truck": "small trucks",
+        "large truck": "large trucks",
+        "small": "small trucks",
+        "large trucks": "large trucks",
+        "small trucks": "small trucks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -10893,6 +11878,12 @@ How many of each bird can be used to maximize the total number of letters that c
         "5",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "carrier pigeon": "carrier pigeons",
+        "owl": "owls",
+        "owls": "owls",
+        "carrier pigeons": "carrier pigeons"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -10943,6 +11934,12 @@ If the company is under contract needs to transport at least 3000 containers, fi
         "500",
         "200"
     ],
+    "var_mention_to_first_var": {
+        "large ship": "large",
+        "small ship": "small ships",
+        "large ships": "large",
+        "small ships": "small ships"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimum",
@@ -10987,6 +11984,12 @@ If  at least 1000 fish need to be transported to shore, minimize the total numbe
         "15",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "canoe": "small canoes",
+        "small diesel boat": "smaller diesel boats",
+        "small canoes": "small canoes",
+        "diesel boats": "smaller diesel boats"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -11032,6 +12035,10 @@ How many of each vehicle should be used to minimize the total number of cars use
         "6",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "vans": "vans",
+        "cars": "cars"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -11081,6 +12088,10 @@ What is the minimum cost diet that the company can provide for its workers?""",
         "12",
         "10"
     ],
+    "var_mention_to_first_var": {
+        "hamburger": "hamburgers",
+        "chicken wrap": "chicken wraps"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimum",
@@ -11142,6 +12153,10 @@ If the profit per batch of hams is $150 and the profit per batch of pork ribs is
         "150",
         "300"
     ],
+    "var_mention_to_first_var": {
+        "pork ribs": "pork ribs",
+        "hams": "hams"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11193,6 +12208,10 @@ If the profit per refrigerator is $400 and the profit per stove is $260, how man
         "400",
         "260"
     ],
+    "var_mention_to_first_var": {
+        "refrigerator": "refrigerators",
+        "stove": "stoves"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11244,6 +12263,10 @@ If the profit per desk is $100 and the profit per drawer is $90, how many of eac
         "100",
         "90"
     ],
+    "var_mention_to_first_var": {
+        "drawer": "drawers",
+        "desk": "desks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11295,6 +12318,10 @@ If his total production must not exceed his available stock of 30000 grams of mi
         "7.5",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "matcha milk tea": "matcha milk tea",
+        "black milk tea": "black milk tea"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11346,6 +12373,10 @@ How many of each should he consume to minimize his cost?""",
         "15",
         "30"
     ],
+    "var_mention_to_first_var": {
+        "milk": "milk",
+        "vegetables": "vegetables"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -11397,6 +12428,10 @@ Formulate a linear programming problem that will help minimize the cost of the d
         "250",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "protein bar": "protein bars",
+        "noodles": "noodles"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -11449,6 +12484,12 @@ How many of each should be bought and sold to maximize profit?""",
         "2",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "plush toy": "plush toys",
+        "doll": "dolls",
+        "plush toys": "plush toys",
+        "dolls": "dolls"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11516,6 +12557,10 @@ What is that profit?""",
         "4",
         "2.5"
     ],
+    "var_mention_to_first_var": {
+        "graph paper": "graph paper",
+        "music paper": "music paper"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11568,6 +12613,10 @@ Determine how much servings of each supplement the patient needs to minimize her
         "14",
         "25"
     ],
+    "var_mention_to_first_var": {
+        "health supplement B": "health supplement B.",
+        "health supplement A": "health supplement A"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -11621,6 +12670,7 @@ How many bags of each brand should Lucy mix in order to minimize cost while also
         "10",
         "16"
     ],
+    "var_mention_to_first_var": {},
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -11688,6 +12738,11 @@ How many full or partial tanks of each oil should the company process so that ne
         "9",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "light oil": "light oil",
+        "heavy oil": "heavy oil",
+        "non-sticky oil": "non-sticky oil"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximized",
@@ -11738,6 +12793,10 @@ If a square foot of laminate planks produces a $2.1 profit and a square foot of 
         "2.1",
         "3.3"
     ],
+    "var_mention_to_first_var": {
+        "laminate planks": "laminate planks",
+        "carpets": "carpets"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11803,6 +12862,10 @@ If the cost per pill of supplement A is $2 and the cost per pill of supplement B
         "2",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "supplement A": "supplement A",
+        "supplement B": "supplement B"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -11852,6 +12915,12 @@ How many of each handbag should they sell to maximize its monthly profit?""",
         "200",
         "447"
     ],
+    "var_mention_to_first_var": {
+        "premium handbags": "premium handbags",
+        "regular handbags": "regular handbags",
+        "regular handbag": "regular handbags",
+        "premium handbag": "premium handbags"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11900,6 +12969,11 @@ Could you help her determine how much to money to put on each sport bet to maxim
         "0.5",
         "0.1"
     ],
+    "var_mention_to_first_var": {
+        "basketball tournament": "basketball tournament",
+        "horse race": "horse race",
+        "soccer game": "soccer game"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -11949,6 +13023,10 @@ If each washing machine repaired earns him $250 and each freezer repaired earns 
         "250",
         "375"
     ],
+    "var_mention_to_first_var": {
+        "freezer": "freezers",
+        "washing machine": "washing machine"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12004,6 +13082,11 @@ If the profit per crepe cake is $12, the profit per sponge cake is $10, and the 
         "10",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "crepe cake": "crepe cakes",
+        "sponge cake": "sponge cakes",
+        "birthday cake": "birthday cakes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12048,6 +13131,10 @@ If the profit per kg of the first mix is $12 and the profit per kg of the second
         "12",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "first mix": "first mix",
+        "second mix": "second mix"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12095,6 +13182,10 @@ How many of each taco should the stand make to maximize profit?""",
         "2.50",
         "3.55"
     ],
+    "var_mention_to_first_var": {
+        "regular tacos": "regular tacos",
+        "deluxe tacos": "deluxe tacos"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12142,6 +13233,12 @@ If the profit per math workbook is $15 and the profit per English workbook is $1
         "15",
         "17"
     ],
+    "var_mention_to_first_var": {
+        "English workbooks": "English workbooks",
+        "math workbooks": "math workbooks",
+        "English workbook": "English workbooks",
+        "math workbook": "math workbooks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12207,6 +13304,10 @@ What should be the manufacturing quantity for each of the keyboards to maximize 
         "15",
         "1.2"
     ],
+    "var_mention_to_first_var": {
+        "full-weighted version": "full-weighted",
+        "semi-weighted version": "semi-weighted"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12255,6 +13356,10 @@ If the company does not want to spend more than $400000, how many of each softwa
         "450",
         "1200"
     ],
+    "var_mention_to_first_var": {
+        "personal license": "personal license",
+        "commercial version": "commercial license"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12299,6 +13404,10 @@ How much of each cookie should the bakery make in order to maximize profit?""",
         "5.5",
         "12"
     ],
+    "var_mention_to_first_var": {
+        "sugar cookies": "sugar cookie",
+        "strawberry cookies": "strawberry cookie"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12354,6 +13463,11 @@ If the weekly budget is $20000, how many commercials should be run in each of th
         "4000",
         "9000"
     ],
+    "var_mention_to_first_var": {
+        "Pi TV": "Pi TV",
+        "Gamma Live": "Gamma Live",
+        "Beta Video": "Beta Video"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12415,6 +13529,13 @@ If the disease testing station only has a total of 22000 staff minutes, how many
         "10",
         "5 times"
     ],
+    "var_mention_to_first_var": {
+        "blood tests": "blood test",
+        "temperature check": "temperature check",
+        "blood test": "blood test",
+        "test": "blood test",
+        "check": "temperature check"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -12468,6 +13589,11 @@ If there needs to be at least 900 units of water transported every minute, and a
         "15",
         "a third"
     ],
+    "var_mention_to_first_var": {
+        "Wide pipes": "wide pipes",
+        "narrow pipes": "narrow pipes",
+        "wide pipes": "wide pipes"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -12524,6 +13650,11 @@ How many of each transportation method should be used to minimize the total numb
         "7",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "Trolleys": "trolleys",
+        "Carts": "carts",
+        "trolleys": "trolleys"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -12576,6 +13707,10 @@ How many bags of each should be bought to minimize the total amount of water req
         "10",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "subsoil": "subsoil",
+        "topsoil": "topsoil"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -12626,6 +13761,12 @@ How many of each type of ski lifts should they plan to install to minimize the t
         "30",
         "22"
     ],
+    "var_mention_to_first_var": {
+        "densely-seated ski lift": "densely-seated one",
+        "loosely-seated ski": "loosely-seated one",
+        "loosely-seated lift": "loosely-seated one",
+        "densely-seated ski": "densely-seated one"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -12682,6 +13823,13 @@ If the apartment needs to condition at least 250 housing units and has 3400 unit
         "17",
         "250"
     ],
+    "var_mention_to_first_var": {
+        "high-power model": "high-power model",
+        "low-powered air": "low-power",
+        "low-powered model": "low-power",
+        "high-powered models": "high-power model",
+        "low-powered models": "low-power"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -12743,6 +13891,13 @@ How many pills of each should the student take to minimize the total time it tak
         "5",
         "6"
     ],
+    "var_mention_to_first_var": {
+        "vitamin D": "vitamin D pills",
+        "calcium pill": "calcium pills",
+        "calcium pills": "calcium pills",
+        "vitamin D pills": "vitamin D pills",
+        "vitamin D pill": "vitamin D pills"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -12794,6 +13949,12 @@ If the amusement park can have at most $100 in prizes every hour, maximize the t
         "3",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "Throwing games": "throwing",
+        "climbing games": "climbing games",
+        "throwing games": "throwing",
+        "climbing": "climbing games"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12853,6 +14014,10 @@ If the science fair has available 1900 units of space, how many of each type of 
         "15",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "rectangular table": "rectangular tables",
+        "circular table": "circular tables"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -12914,6 +14079,12 @@ How many of each pipe types should be used to reduce the total number of pipes r
         "5000",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "high-volume pipe": "high-volume and",
+        "low-volume pipe": "low-volume one",
+        "high-volume ones": "high-volume and",
+        "low-volume pipes": "low-volume one"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "reduce",
@@ -12979,6 +14150,12 @@ If the hospital has a budget of $14000, how many of each worker certified to use
         "100",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "graduate researcher": "ultrasound technicians",
+        "Ultrasound technicians": "ultrasound technicians",
+        "ultrasound technician": "ultrasound technicians",
+        "graduate researchers": "graduate researchers"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "reduce",
@@ -13037,6 +14214,12 @@ How many of each type of teeth should the dentist schedule to fill to minimize t
         "15",
         "2.3"
     ],
+    "var_mention_to_first_var": {
+        "Canines": "canines",
+        "Molars": "molars",
+        "canines": "canines",
+        "molars": "molars"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -13093,6 +14276,11 @@ How many shifts on each type of transportation should the delivery person schedu
         "6",
         "43"
     ],
+    "var_mention_to_first_var": {
+        "scooter": "scooters",
+        "bike": "bikes",
+        "bikes": "bikes"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -13155,6 +14343,12 @@ If he can at most perform 40% of his concerts as R&B because he likes pop songs 
         "240",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "pop concert": "pop",
+        "R&B concert": "R&B.",
+        "R&B": "R&B.",
+        "pop": "pop"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -13217,6 +14411,12 @@ How many of each size of pizzas should the neighbourhood pizza restaurant make t
         "8",
         "two"
     ],
+    "var_mention_to_first_var": {
+        "Medium pizzas": "medium pizza",
+        "large pizzas": "large pizza",
+        "Large pizzas": "large pizza",
+        "medium pizzas": "medium pizza"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "reduce",
@@ -13279,6 +14479,11 @@ How many of each type of vehicle should be used to minimize the total number of 
         "12",
         "18"
     ],
+    "var_mention_to_first_var": {
+        "limousines": "limousine",
+        "buses": "bus",
+        "Limousines": "limousine"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -13325,6 +14530,12 @@ If the clinic only has a budget of 10000 dollars, maximize the number of patient
         "25",
         "two times"
     ],
+    "var_mention_to_first_var": {
+        "treatment pill": "treatment",
+        "prevention pill": "prevention",
+        "treatment pills": "treatment",
+        "prevention pills": "prevention"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -13380,6 +14591,10 @@ If the restaurant wants to have 4000 customer interactions per hour, how many of
         "85",
         "twenty"
     ],
+    "var_mention_to_first_var": {
+        "hand": "hand",
+        "cart": "cart"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -13436,6 +14651,10 @@ How many of each type of meal should he eat to minimize his sodium intake?""",
         "8",
         "20"
     ],
+    "var_mention_to_first_var": {
+        "eggs": "eggs",
+        "salmon": "salmon"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -13494,6 +14713,10 @@ How many of each combo should be pushed for by the waiting staff to minimize the
         "35",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "experimental meal": "experimental meal",
+        "original meal": "original"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -13544,6 +14767,10 @@ How should the metal-working shop purchase their metal-working equipment to decr
         "5",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "steel cutter": "steel cutter",
+        "chop saw": "chop saw"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "decrease",
@@ -13593,6 +14820,11 @@ If the cruise company aims to transport at least 20000 customers, how many of ea
         "800",
         "15"
     ],
+    "var_mention_to_first_var": {
+        "small cruise ship": "small cruise ship",
+        "large cruise ship": "large cruise ship",
+        "small cruise ships": "small cruise ship"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -13646,6 +14878,11 @@ If the customer requires at least 300 light fixtures and can use at most 2000 un
         "8",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "fluorescence lamp": "fluorescence lamp",
+        "LED light": "LED fixture",
+        "fluorescence lamps": "fluorescence lamp"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "reduce",
@@ -13698,6 +14935,11 @@ If the market owner has 65000 ml of jam, how many sets of small packets or jugs 
         "1250",
         "three times"
     ],
+    "var_mention_to_first_var": {
+        "small packets": "small packets",
+        "jug": "jugs",
+        "jugs": "jugs"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -13752,6 +14994,11 @@ If each salad contains 2 units of potassium and each fruit bowl contains 8 units
         "2",
         "8"
     ],
+    "var_mention_to_first_var": {
+        "fruit bowls": "fruit bowl",
+        "salad": "salad",
+        "fruit bowl": "fruit bowl"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -13808,6 +15055,10 @@ How should the company distribute their product to the two types of store to red
         "80",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "factory outlet": "factory outlet",
+        "retail store": "retail store"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "reduce",
@@ -13856,6 +15107,13 @@ How many of each should be made to maximize the total number of units produced?"
         "1000",
         "three times"
     ],
+    "var_mention_to_first_var": {
+        "cans": "cans",
+        "glass bottles": "glass bottles",
+        "can": "cans",
+        "bottle": "glass bottles",
+        "soda cans": "cans"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -13913,6 +15171,12 @@ How many of trip by each should be scheduled to minimize the total number of tri
         "300",
         "550"
     ],
+    "var_mention_to_first_var": {
+        "Freight": "freight",
+        "freight": "air",
+        "freight trip": "freight",
+        "air": "air"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -13976,6 +15240,13 @@ If the movie needs to transport 80 people, minimize the total number of parking 
         "2",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "Large mobile production units": "large mobile production units",
+        "small mobile production units": "small mobile production units",
+        "small mobile production unit": "small mobile production units",
+        "small mobile units": "small mobile production units",
+        "large mobile production units": "large mobile production units"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -14028,6 +15299,12 @@ If at least 750 masks are required to be distributed, how many of each size of b
         "45",
         "three times"
     ],
+    "var_mention_to_first_var": {
+        "small boxes": "small boxes",
+        "large box": "large boxes",
+        "small box": "small boxes",
+        "large boxes": "large boxes"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -14085,6 +15362,12 @@ How many of each size of rice bags should be used to maximize the total amount o
         "1.5",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "Tiny bags": "tiny bags",
+        "Large bags": "large bags",
+        "large bags": "large bags",
+        "tiny bags": "tiny bags"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14139,6 +15422,11 @@ How many of each type of jack should the shop purchase to maximize the amount of
         "4",
         "7"
     ],
+    "var_mention_to_first_var": {
+        "gas-powered one": "gas-powered one",
+        "automatic electric one": "automatic electric one",
+        "automatic electric ones": "automatic electric one"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14191,6 +15479,12 @@ If the railway company wants to transport at least 600 people per hour, minimize
         "30",
         "twice"
     ],
+    "var_mention_to_first_var": {
+        "trains": "trains",
+        "train": "trams",
+        "tram": "trams",
+        "trams": "trams"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -14241,6 +15535,10 @@ How many of each catalyst should be used to maximize the amount converted into c
         "14",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "palladium-heavy catalyst": "palladium-heavy catalyst",
+        "platinum-heavy catalyst": "platinum-heavy catalyst"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14293,6 +15591,10 @@ How many of each type of processes should be performed to maximize the amount of
         "6",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "Process P": "process P.",
+        "Process J": "process J"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14343,6 +15645,11 @@ How many of each type should the airport install to minimize the total units of 
         "5",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "Escalators": "escalators",
+        "elevators": "elevators",
+        "escalators": "escalators"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -14400,6 +15707,11 @@ How many of each method should be executed to minimize the total time needed?"""
         "60",
         "65"
     ],
+    "var_mention_to_first_var": {
+        "Method A": "method A",
+        "Method B": "method B.",
+        "method B": "method B."
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -14464,6 +15776,11 @@ How many of each type of vehicle should be used to maximize the total earnings f
         "15",
         "225"
     ],
+    "var_mention_to_first_var": {
+        "sedan": "sedans",
+        "motorcycle": "motorcycles",
+        "motorcycles": "motorcycles"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14522,6 +15839,12 @@ How many of each transportation method should be used to minimize the total amou
         "5",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "Kayaks": "Kayaks",
+        "motorboats": "motorboat",
+        "motorboat": "motorboat",
+        "kayak": "Kayaks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -14574,6 +15897,12 @@ If the drop-in clinic operates for 7525 minutes, maximize the number of tests th
         "5",
         "three times"
     ],
+    "var_mention_to_first_var": {
+        "blood tests": "blood",
+        "blood test": "blood",
+        "ear test": "ear",
+        "ear tests": "ear"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -14620,6 +15949,10 @@ How should the researcher distribute the annotations to the two companies to min
         "100",
         "72"
     ],
+    "var_mention_to_first_var": {
+        "common company": "common third-party annotation company",
+        "specialized company": "specialized third-party"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -14663,6 +15996,11 @@ If the golf course needs to transport at least 80 guests, how many of each cart 
         "4",
         "1"
     ],
+    "var_mention_to_first_var": {
+        "pull cart": "pull carts",
+        "golf carts": "golf carts",
+        "golf cart": "golf carts"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -14710,6 +16048,13 @@ If the smoothie shop has 3500 units of acai berries and 3200 units of banana cho
         "6",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "acai berry smoothie": "acai berry smoothie",
+        "banana chocolate smoothie": "banana chocolate smoothie",
+        "Banana chocolate smoothies": "banana chocolate smoothie",
+        "banana chocolate": "banana chocolate smoothie",
+        "acai berry smoothies": "acai berry smoothie"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "reduce",
@@ -14772,6 +16117,11 @@ How many of each should the manufacturing company make to maximize the total num
         "2",
         "three times"
     ],
+    "var_mention_to_first_var": {
+        "footballs": "footballs",
+        "Basketballs": "basketballs",
+        "basketballs": "basketballs"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -14839,6 +16189,12 @@ How many of each experiment should be scheduled by the researcher to minimize th
         "2",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "in-vivo experiments": "in-vivo",
+        "In-vivo experiments": "in-vivo",
+        "Ex-vivo experiments": "ex-vivo",
+        "ex-vivo experiments": "ex-vivo"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -14889,6 +16245,12 @@ How many of each way to deliver must be used to maximize the total amount of mai
         "ten",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "Canoers": "canoers",
+        "Runners": "runners",
+        "canoe": "canoers",
+        "runners": "runners"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14943,6 +16305,12 @@ If the woman can consume at most 2000 calories, how many of each should she eat 
         "250",
         "2 times"
     ],
+    "var_mention_to_first_var": {
+        "protein bars": "protein bar",
+        "smoothie": "smoothie",
+        "smoothies": "smoothie",
+        "protein bar": "protein bar"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -14994,6 +16362,10 @@ How many hours should each factory be run to minimize the total time needed?""",
         "40",
         "35"
     ],
+    "var_mention_to_first_var": {
+        "northern factory": "northern factory",
+        "western factory": "western factory"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -15058,6 +16430,12 @@ If each batch of medication patches can treat 3 people and each batch of anti-bi
         "3",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "medication patches": "medication patches",
+        "anti-biotic creams": "anti-biotic creams",
+        "medication patch": "medication patches",
+        "anti-biotic cream": "anti-biotic creams"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -15121,6 +16499,12 @@ If the company needs to deliver 1500 units of goods, how many of each method of 
         "150",
         "5"
     ],
+    "var_mention_to_first_var": {
+        "desert truck": "desert trucks",
+        "camel caravan": "camel caravans",
+        "camel caravans": "camel caravans",
+        "desert trucks": "desert trucks"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15167,6 +16551,12 @@ How many of each vaccine should be made to minimize the amount of gelatine used?
         "65",
         "60"
     ],
+    "var_mention_to_first_var": {
+        "first-dose vaccine": "first-dose",
+        "second-dose vaccine": "second-dose",
+        "second-dose vaccines": "second-dose",
+        "first-dose": "first-dose"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15218,6 +16608,10 @@ If there has to be at least 300 units of chemical A in the mixer and at least 15
         "45",
         "third"
     ],
+    "var_mention_to_first_var": {
+        "chemical A": "chemical A",
+        "chemical B": "chemical B"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15271,6 +16665,10 @@ If they schedule that the elderly need in total at least 12000 units of fibre an
         "30",
         "100"
     ],
+    "var_mention_to_first_var": {
+        "spinach": "spinach",
+        "soybeans": "soybeans"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",
@@ -15329,6 +16727,13 @@ If the company has available 1000 units of plastic and 250 units of solder, how 
         "two",
         "one"
     ],
+    "var_mention_to_first_var": {
+        "mechanical": "mechanical",
+        "standard keyboards": "standard keyboards",
+        "mechanical keyboard": "mechanical",
+        "Mechanical keyboards": "mechanical",
+        "standard keyboard": "standard keyboards"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "maximize",
@@ -15394,6 +16799,12 @@ Planning to make a profit, how many sedans and how many buses should this touris
         "250",
         "40"
     ],
+    "var_mention_to_first_var": {
+        "bus": "buses",
+        "sedan": "sedans",
+        "buses": "buses",
+        "sedans": "sedans"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "decrease",
@@ -15445,6 +16856,10 @@ How many of each dessert should the shop make to minimize the total amount of fl
         "Four",
         "three"
     ],
+    "var_mention_to_first_var": {
+        "matcha ice cream": "matcha ice cream",
+        "orange sorbet": "orange sorbet"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15506,6 +16921,12 @@ How many of each form of transportation should the daycare center schedule for t
         "9",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "personal car": "personal car",
+        "bus": "bus",
+        "buses": "bus",
+        "personal cars": "personal car"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "minimize",
@@ -15559,6 +16980,11 @@ How many units of each should be added to the body wash to minimize the total am
         "0.9",
         "thrice"
     ],
+    "var_mention_to_first_var": {
+        "coconut oil": "coconut oil",
+        "lavenders": "lavender",
+        "lavender": "lavender"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15610,6 +17036,12 @@ How many times should each test be performed to minimize the total number of pro
         "two",
         "1.5 times"
     ],
+    "var_mention_to_first_var": {
+        "pH tests": "pH test",
+        "pH test": "pH test",
+        "salinity test": "salinity test",
+        "salinity tests": "salinity test"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15660,6 +17092,10 @@ How many of each type of staff should the municipality hire to decrease the tota
         "40",
         "1280"
     ],
+    "var_mention_to_first_var": {
+        "full-time staff": "full-time and",
+        "Part-time staff": "part-time staff"
+    },
     "obj_declaration": {
         "type": "objvar",
         "direction": "decrease",
@@ -15712,6 +17148,10 @@ For how many square feet should each machine be used to minimize the time requir
         "10",
         "2"
     ],
+    "var_mention_to_first_var": {
+        "heavy-duty yard machine": "heavy-duty yard machine",
+        "gas lawn mower": "gas lawn mower"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15767,6 +17207,11 @@ How many of each type of trail should the park construct to minimize the total a
         "6",
         "3"
     ],
+    "var_mention_to_first_var": {
+        "narrow trail": "narrow trail",
+        "wide trail": "wide trail",
+        "wide trails": "wide trail"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15815,6 +17260,11 @@ How many of each should the brewery make to minimize the total units of fruit re
         "5",
         "7"
     ],
+    "var_mention_to_first_var": {
+        "kombucha": "kombucha",
+        "wine": "wine",
+        "Wine": "wine"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15877,6 +17327,11 @@ How many of shift using each type of vehicle should be scheduled to minimize the
         "15",
         "550"
     ],
+    "var_mention_to_first_var": {
+        "type II ambulance": "type II ambulance",
+        "hospital van": "hospital van",
+        "hospital vans": "hospital van"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "minimize",
@@ -15928,6 +17383,10 @@ If at most 28 units of heat can be generated during the manufacturing process, h
         "3",
         "4"
     ],
+    "var_mention_to_first_var": {
+        "halogen gas approach": "halogen gas approach",
+        "argon gas approach": "argon gas approach"
+    },
     "obj_declaration": {
         "type": "objective",
         "direction": "maximize",

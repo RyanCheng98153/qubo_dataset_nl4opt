@@ -5,7 +5,7 @@ keys_to_extract = [
     "vars",
     # "var_mentions",
     "params",
-    # "var_mention_to_first_var",
+    "var_mention_to_first_var",
     # "first_var_to_mentions",
     "obj_declaration",
     "const_declarations",
