@@ -4,6 +4,7 @@ from collections import defaultdict
 # Prepare dictionaries for storing results
 obj_type_to_directions = defaultdict(set)
 const_type_to_direction_operator_pairs = defaultdict(set)
+xby_params = []
 
 with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
     for line in f:
@@ -25,6 +26,11 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
                 operator = const.get("operator")
                 if const_type and direction and operator:
                     const_type_to_direction_operator_pairs[const_type].add((direction, operator))
+        
+        for const_decl in data["const_declarations"]:
+            if const_decl["type"] != "xby":
+                continue
+            xby_params.append(const_decl["param"])
 
 # Output results
 print("[obj_declaration directions by type]")
@@ -40,3 +46,6 @@ for const_type, pairs in const_type_to_direction_operator_pairs.items():
     print("Pairs: (direction, operator)")
     for direction, operator in pairs:
         print(f"- ({direction},\t {operator})")
+
+print("\n[xby parameters]")
+print(list(set(xby_params)))
