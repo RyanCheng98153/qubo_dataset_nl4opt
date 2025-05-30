@@ -12267,7 +12267,7 @@ If the company does not want to spend more than $400000, how many of each softwa
     "const_declarations": [
         {
             "type": "linear",
-            "direction": "more than",
+            "direction": "no more than",
             "limit": "400000",
             "terms": {
                 "personal license": "550",
