@@ -1,13 +1,8 @@
-# # Given objective declaration
-# obj_declaration = {
-#     "type": "objective",
-#     "direction": "maximize",
-#     "name": "number of fish",
-#     "terms": {
-#         "sled dogs": "100",
-#         "trucks": "300"
-#     }
-# }
+def to_int_float(x):
+    x = float(x)  # Ensure x is a float
+    if isinstance(x, float) and x.is_integer():
+        return int(x)
+    return x
 
 # Generate the objective function manually
 def build_objective(obj_decl):
@@ -17,6 +12,7 @@ def build_objective(obj_decl):
     # Construct expression like: 100*sled_dogs + 300*trucks
     term_exprs = []
     for var, coeff in terms.items():
+        coeff = to_int_float(coeff)
         term_exprs.append(f"{coeff}*{var}")
     
     objective_expr = " + ".join(term_exprs)
@@ -33,17 +29,6 @@ def build_objective(obj_decl):
         raise ValueError(f"Unknown direction: {direction}")
     
     return f"{direction}, {objective_expr}"
-
-# Given objvar declaration
-# obj_declaration = {
-#     "type": "objvar",
-#     "direction": "minimize",
-#     "name": "number of butcher shops",
-#     "vars": [
-#         "small shop",
-#         "large shop"
-#     ]
-# }
 
 # Generate the objective function manually (with default coefficient 1)
 def build_objective_from_vars(obj_decl):
