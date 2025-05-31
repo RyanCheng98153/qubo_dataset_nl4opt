@@ -13,8 +13,15 @@ from formulation.constraint import (
 def revise_varname(name, var_mentions):
     return var_mentions.get(name, name).replace(" ", "_")
     
+doc_id = 0
+output_file = "nl4opt_expr.txt"
+
+with open(output_file, 'w', encoding='utf-8') as f:
+    f.write("")
+
 with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
     for line in f:
+        doc_id += 1
         data = json.loads(line)
         
         # if data["id"] not in [
@@ -25,9 +32,14 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
         # ]:
         #     continue
         
-        print()
-        print("======================")
-        print()
+        # print()
+        # print("======================")
+        # print()
+        
+        with open(output_file, 'a', encoding='utf-8') as out_f:
+            out_f.write("\n")
+            out_f.write("======================\n")
+            out_f.write("\n")
         
         document = data["document"]
         obj_declaration = data["obj_declaration"]
@@ -49,9 +61,16 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
             ]
             objective_statement = build_objective_from_vars(obj_declaration)
         
-        print(document)
-        print("\n[ Objective Declaration ]")
-        print(objective_statement)
+        # print(f"[ Document {doc_id} ]\n")
+        # print(document)
+        # print("\n[ Objective Declaration ]")
+        # print(objective_statement)
+        
+        with open(output_file, 'a', encoding='utf-8') as out_f:
+            out_f.write(f"[ Document {doc_id} ]\n")
+            out_f.write(document + "\n")
+            out_f.write("\n[ Objective Declaration ]\n")
+            out_f.write(objective_statement + "\n")
         
         const_declaration_list = data["const_declarations"]
         for const_declaration in const_declaration_list:
@@ -93,7 +112,11 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
                 const_declaration["var"] = revise_varname(const_declaration["var"], var_mentions)
                 const_statement = build_constraint_ratio(const_declaration, vars_list)
             
-            print(f"\n[ const_type : {const_type} ]")
-            print(const_statement)
+            # print(f"\n[ const_type : {const_type} ]")
+            # print(const_statement)
+            
+            with open(output_file, 'a', encoding='utf-8') as out_f:
+                out_f.write(f"\n[ const_type : {const_type} ]\n")
+                out_f.write(const_statement + "\n")
             
         # break
