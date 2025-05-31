@@ -56,5 +56,10 @@ for const_type, pairs in const_type_to_direction_operator_pairs.items():
 print("\n[xby parameters]")
 print(list(set(xby_params)))
 
-print("\n[ratio limits]")
-print(list(set(ratio_limits)))
+ratio_limits_count = {limit: 0 for limit in ratio_limits}
+for limit in ratio_limits:
+    ratio_limits_count[limit] += 1
+
+print("\n[ratio limits count]")
+for limit, count in ratio_limits_count.items():
+    print(f"{limit}: {count}")
