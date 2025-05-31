@@ -5,6 +5,7 @@ from collections import defaultdict
 obj_type_to_directions = defaultdict(set)
 const_type_to_direction_operator_pairs = defaultdict(set)
 xby_params = []
+ratio_limits = []
 
 with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
     for line in f:
@@ -31,6 +32,11 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
             if const_decl["type"] != "xby":
                 continue
             xby_params.append(const_decl["param"])
+        
+        for const_decl in data["const_declarations"]:
+            if const_decl["type"] != "ratio":
+                continue
+            ratio_limits.append(const_decl["limit"])
 
 # Output results
 print("[obj_declaration directions by type]")
@@ -49,3 +55,6 @@ for const_type, pairs in const_type_to_direction_operator_pairs.items():
 
 print("\n[xby parameters]")
 print(list(set(xby_params)))
+
+print("\n[ratio limits]")
+print(list(set(ratio_limits)))
