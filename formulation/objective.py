@@ -1,8 +1,24 @@
 def to_int_float(x):
+    x = x.replace(",", "")  # Remove commas for numeric conversion
+    if x.endswith("%"):
+        x = x[:-1]  # Remove percentage sign
+        x = float(x) / 100  # Convert percentage to decimal
     x = float(x)  # Ensure x is a float
     if isinstance(x, float) and x.is_integer():
         return int(x)
     return x
+
+special_coeffs = {
+    'six': 6,
+    'twenty': 20,
+    'five': 5,
+    'seven': 7,
+    'ten': 10,
+    'two': 2,
+    'three': 3,
+    'Two': 2,
+    'Four': 4,   
+}
 
 # Generate the objective function manually
 def build_objective(obj_decl):
@@ -12,7 +28,10 @@ def build_objective(obj_decl):
     # Construct expression like: 100*sled_dogs + 300*trucks
     term_exprs = []
     for var, coeff in terms.items():
-        coeff = to_int_float(coeff)
+        if coeff in special_coeffs:
+            coeff = special_coeffs[coeff]
+        else:
+            coeff = to_int_float(coeff)
         term_exprs.append(f"{coeff}*{var}")
     
     objective_expr = " + ".join(term_exprs)
