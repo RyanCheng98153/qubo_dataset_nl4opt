@@ -18,9 +18,9 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
         data = json.loads(line)
         
         # if data["id"] not in [
-        #     # "1117636837", 
-        #     # "1884763091",
-        #     # "-1394927728",
+        #     "1117636837", 
+        #     "1884763091",
+        #     "-1394927728",
         #     "-1396068089"
         # ]:
         #     continue
@@ -49,12 +49,13 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
             ]
             objective_statement = build_objective_from_vars(obj_declaration)
         
+        print(document)
+        print("\n[ Objective Declaration ]")
         print(objective_statement)
         
         const_declaration_list = data["const_declarations"]
         for const_declaration in const_declaration_list:
             const_type = const_declaration["type"]
-            print(const_type)
             
             var_mentions = data["var_mention_to_first_var"]
             
@@ -92,6 +93,7 @@ with open('test_extracted.jsonl', 'r', encoding='utf-8') as f:
                 const_declaration["var"] = revise_varname(const_declaration["var"], var_mentions)
                 const_statement = build_constraint_ratio(const_declaration, vars_list)
             
+            print(f"\n[ const_type : {const_type} ]")
             print(const_statement)
             
         # break
