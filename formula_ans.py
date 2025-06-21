@@ -59,9 +59,6 @@ from pprint import pprint
 with open("NL4OPT_with_optimal_solution.jsonl", "r") as file:
     datas = [json.loads(line) for line in file.readlines()]
 
-print(len(datas))
-
-
 for doc in documents:
     doc["answer"] = None
 
@@ -72,11 +69,11 @@ for idx, data in enumerate(datas):
 
 print("Finished checking the documents.")
 
-output_jsonl = "nl4opt_expr_ans.jsonl"
+output_jsonl = "nl4opt_expr_ans.json"
 
 with open(output_jsonl, 'w', encoding="utf-8") as f:
     for doc in documents:
-        f.write(json.dumps(doc, ensure_ascii=False) + "\n")
+        json.dump(documents, f, ensure_ascii=False, indent=2)
 
 output_txt = "nl4opt_expr_ans.txt"
 with open(output_txt, 'w', encoding="utf-8") as f:
