@@ -64,16 +64,18 @@ for doc in documents:
 
 for idx, data in enumerate(datas):
     for i, doc in enumerate(documents):
+        documents[i]["id"] = i
         if data["en_question"] == doc["document"]:
             documents[i]["answer"] = data["en_answer"]
+        documents[i] = {"id": documents[i]["id"], **{k: v for k, v in documents[i].items() if k != "id"}}
 
 print("Finished checking the documents.")
 
-output_jsonl = "nl4opt_expr_ans.json"
+output_jsonl = "nl4opt_expr_ans.jsonl"
 
 with open(output_jsonl, 'w', encoding="utf-8") as f:
     for doc in documents:
-        json.dump(documents, f, ensure_ascii=False, indent=2)
+        json.dump(doc, f, ensure_ascii=False, indent=2)
 
 output_txt = "nl4opt_expr_ans.txt"
 with open(output_txt, 'w', encoding="utf-8") as f:
